@@ -133,7 +133,7 @@ namespace CoreCodeCamp.Controllers
             return BadRequest();
         }
 
-/*        [HttpDelete("{moniker")]
+        [HttpDelete("{moniker}")]
         public async Task<IActionResult> Delete(string moniker)
         {
             try
@@ -154,6 +154,6 @@ namespace CoreCodeCamp.Controllers
             }
 
             return BadRequest();
-        }*/
+        }
     }
 }

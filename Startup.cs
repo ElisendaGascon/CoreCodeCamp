@@ -39,10 +39,10 @@ namespace CoreCodeCamp
       app.UseAuthentication();
       app.UseAuthorization();
 
-      app.UseEndpoints(cfg =>
-      {
-        cfg.MapControllers();
-      });
+            app.UseEndpoints(cfg =>
+            {
+                cfg.MapControllers();
+            });
     }
   }
 }
