@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "CoreCodeCamp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53589;http://localhost:6600"
+    }
+  }
+}
